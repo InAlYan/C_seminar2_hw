@@ -3,7 +3,7 @@
 // 782 -> 8
 // 918 -> 1
 
-int InputNumber (string MessageToUser)
+int InputNumber(string MessageToUser)
 {
     Console.Write(MessageToUser);
     return int.Parse(Console.ReadLine());
